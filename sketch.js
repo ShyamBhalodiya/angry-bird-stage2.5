@@ -18,6 +18,8 @@ function setup(){
     
     ground = new Ground(600,height,1200,20)
 
+    plateform= new Ground(150,300,310,180);
+
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
     pig1 = new Pig(810, 350);
@@ -46,6 +48,8 @@ function draw(){
     box1.display();
     box2.display();
     ground.display();
+
+    plateform.display();
     pig1.display();
     log1.display();
 
